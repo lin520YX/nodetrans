@@ -25,3 +25,22 @@ git status 查看状态
 红色表示在工作区
 git add ./-A -->暂存
 git rm --cached . -r -->删除暂存
+
+//回滚
+git checkout filename
+git reset Head filename
+
+//回滚历史版本
+git reset --hard dasdjashd
+git reflog 查看所有版本
+git reset --hard HEAD^ 上一个版本
+
+
+//分支 git branch  查看分支
+//创建分支 git branch dev
+// 切换分支 git checkout dev
+## 删除分支
+```
+git branch -D dev
+
+```

@@ -1,0 +1,500 @@
+   14  cd src
+   15  cd app/todo
+   16  json-server todo-data.json
+   17  cd ../
+   18  cd ../
+   19  cd .//
+   20  cd ../
+   21   json-server ./src/app/todo/todo-data.json
+   22  npm i json-server
+   23   json-server ./src/app/todo/todo-data.json
+   24  ionic serve
+   25  ionic build --prod --release
+   26  ionic serve
+   27  ionic serve
+   28  ionic serve
+   29  ionic serve
+   30  ionic build --prod --release
+   31  ionic serve
+   32  ionic serve
+   33  ionic build --prod --release
+   34  ionic serve
+   35  ionic build --prod --release
+   36  cordova-hcp build
+   37  ionic serve
+   38  ionic build --prod --release
+   39  cordova-hcp build
+   40  ionic serve
+   41  ionic serve
+   42  ionic serve
+   43  ionic serve
+   44  ionic build --prod --release
+   45  ionic serve
+   46  ionic build --prod --release
+   47  ionic build --prod --release
+   48  ionic serve
+   49  ionic build --prod --release
+   50  ionic serve
+   51  ionic build --prod --release
+   52  ionic serve
+   53  ionic build --prod --release
+   54  ionic serve
+   55  ionic build --prod --release
+   56  cordova-hcp build
+   57  ionic serve
+   58  ionic build --prod --release
+   59  cordova-hcp build
+   60  ionic serve
+   61  ionic serve
+   62  ionic serve
+   63  ionic build --prod --release
+   64  ionic build --prod --release
+   65  ionic serve
+   66  ionic build --prod --release
+   67  cordova-hcp build
+   68  ionic serve
+   69  ionic build --prod --release
+   70  ionic build --prod --release
+   71  cordova-hcp build
+   72  ionic serve
+   73  ionic build --prod --release
+   74  ionic serve
+   75  ionic build --prod --release
+   76  ionic serve
+   77  ionic serve
+   78  ionic build --prod --release
+   79  ionic serve
+   80  ionic build --prod --release
+   81  cordova-hcp build
+   82  ng new hello-wolrd
+   83  cd hello wolrd
+   84  cd hello-wolrd
+   85  ng serve
+   86  ng serve
+   87  ng serve
+   88  ng serve
+   89  npm install
+   90  ng serve
+   91  ng serve
+   92  ng serve
+   93  ionic serve
+   94  ionic serve
+   95  ionic serve
+   96  cd /Users/linyunfu/Desktop/ng0-1 
+   97  cd hello-wolrd
+   98  json-server /Users/linyunfu/Desktop/ng0-1/hello-wolrd/src/app/todo-data.json 
+   99  json-server /Users/linyunfu/Desktop/ng0-1/hello-wolrd/src/app/todo-data.json 
+  100  cd /Users/linyunfu/Desktop/ng0-1/hello-wolrd 
+  101  ng g c todo/todo-list --spec=false
+  102  ng g c todo/todo-item --spec=false
+  103  cd /Users/linyunfu/Desktop/lvchen_new 
+  104  ls -l
+  105  cd greenMy
+  106  ionic g page pkGameStaffTwo
+  107  ionic g page pkGameShopTwo
+  108  ng serve
+  109  cd hello-wolrd
+  110  ng serve
+  111  ng serve
+  112  ng serve
+  113  ionic serve
+  114  ionic build --prod --release
+  115  cordova-hcp build
+  116  cordova -v
+  117  ionic -v
+  118  ng -v
+  119  gcc -v
+  120  curl -s get.sdkman.io | bash
+  121  source"
+  122  HOME/.sdkman/bin/sdkman-init.sh”
+  123  sdk install groovy
+  124  curl -s get.sdkman.io | bash
+  125  source"
+  126  HOME/.sdkman/bin/sdkman-init.sh”
+  127  sdk install groovy
+  128  groovy -version
+  129  vim ~/.bash_profile
+  130  export PATH=$PATH:/Users/linyunfu/Downloads/groovy-2.4.15 
+  131  source ~/.bash_profile
+  132  groovy -v
+  133  vim ~/.bash_profile 
+  134  vi ~/.bash_profile
+  135  vi ~/.bash_profile
+  136  vi ~/.bash_profile
+  137  groovy -v
+  138  vi ~/.bash_profile
+  139  ng serve
+  140  cd hello-wolrd
+  141  ng serve
+  142  ng serve
+  143  ng serve
+  144  npm install
+  145  ng serve
+  146  npm install @angular/core@latest
+  147  ng serve
+  148  npm uninstall --save-dev angular-cli
+  149  ng serve
+  150  npm install --save-dev @angular/cli@latest
+  151  ng serve
+  152  npm install
+  153  ng serve
+  154  ng update @angular/cli
+  155  ng serve
+  156  npm install
+  157  ng serve
+  158  npm install
+  159  npm install
+  160  ng serve
+  161  ng serve
+  162  npm install
+  163  cd hello wolrd
+  164   cd hello-wolrd
+  165  ng se
+  166  ng serve
+  167  ng serve
+  168  ng serve
+  169  npm install
+  170  ng serve
+  171  npm install @angular/core@latest
+  172  ng serve
+  173  npm install
+  174  ng serve
+  175  npm install --only=dev
+  176  ng serve
+  177  rm -fr node_modules npm install
+  178  npm install
+  179  ng serve
+  180  rm -fr node_modules npm install
+  181  npm install
+  182  ng serve
+  183  ionic cordova platform remove ios
+  184  ionic cordova platform remove android
+  185  ionic cordova platform remove plugin
+  186  ionic cordova  remove plugin
+  187  cordova remove plugin
+  188  json-server /Users/linyunfu/Desktop/ng0-1/hello-wolrd/src/app/todo-data.json 
+  189  json-server /Users/linyunfu/Desktop/ng2-tut/src/app/data.json 
+  190  json-server /Users/linyunfu/Desktop/ng0-1/hello-wolrd/src/app/todo-data.json 
+  191  cd /Users/linyunfu/Desktop/ng0-1/hello-wolrd 
+  192  npm install --save angular2-mdl
+  193  npm uninstall --save angular2-mdl
+  194  npm install --save angular2-mdl@2.5.0
+  195  ionic serve
+  196  ionic serve
+  197  ionic serve
+  198  ionic serve
+  199  ionic build --prod --release
+  200  cordova-hcp build
+  201  ionic serve
+  202  ionic build --prod --release
+  203  cordova-hcp build
+  204  ionic serve
+  205  ionic serve
+  206  ionic serve
+  207  ionic build --prod --release
+  208  ionic serve
+  209  ionic build --prod --release
+  210  cordova-hcp build
+  211  ionic serve
+  212  ionic build --prod --release
+  213  cordova-hcp build
+  214  ionic serve
+  215  ionic serve
+  216  ionic build --prod --release
+  217  cordova-hcp build
+  218  ionic serve
+  219  ionic build --prod --release
+  220  cordova-hcp build
+  221  ionic serve
+  222  ionic build --prod --release
+  223  ionic build --prod --release
+  224  cordova-hcp build
+  225  ionic serve
+  226  ionic build --prod --release
+  227  ionic build --prod --release
+  228  cordova-hcp build
+  229  ionic serve
+  230  ionic build --prod --release
+  231  cordova-hcp build
+  232  ionic serve
+  233  ionic build --prod --release
+  234  ionic build --prod --release
+  235  cordova-hcp build
+  236  ionic build --prod --release
+  237  ionic serve
+  238  ionic build --prod --release
+  239  ionic build --prod --release
+  240  ionic serve
+  241  sudo killall -9 networkd
+  242  cd ./
+  243  cd ../
+  244  git config -global user.email
+  245  git config –global user.email
+  246  git config user.email
+  247  git config lin13177896353@163.com
+  248  git config --replace-all lin13177896353@163.com
+  249  git config user.email
+  250  git config --global --replace-all lin13177896353@163.com
+  251  git config --global user.name 'lin13177896353@163.com'
+  252  git config user.email
+  253  git config --global user.email "lin13177896353@163.com"
+  254  git config user.email
+  255  git config user.email
+  256  git commit
+  257  git commit -m "first commit"
+  258  git
+  259  git pull
+  260  git push
+  261  git push origin master 
+  262  git add /Users/linyunfu/Documents/GitHub/trans/tran2/constructor.html
+  263  git commit /Users/linyunfu/Documents/GitHub/trans/tran2/constructor.html -m '1'
+  264  git push
+  265  ng serve
+  266  ionic serve
+  267  ionic serve
+  268  ionic build --prod --release
+  269  cordova-hcp build
+  270  ionic serve
+  271  ionic build --prod --release
+  272  cordova-hcp build
+  273  ionic serve
+  274  ionic build --prod --release
+  275  cordova-hcp build
+  276  git push
+  277  git add .
+  278  git commit . -m '1'
+  279  cd ../
+  280  git add .
+  281  git commit . -m '1'
+  282  git push
+  283  cd tran2
+  284  git add .
+  285  git commit . -m '2'
+  286  git branch mybranch
+  287  git checkout mybranch
+  288  git commit -m "i had do some thing in mybranch"
+  289  git checkout master
+  290  git merge mybranch
+  291  git push
+  292  cd ../
+  293  git rm -r --cached some-directory
+  294  git rm -r --cached .
+  295  git commit -m '2'
+  296  git push -u origin master
+  297  vue -v
+  298  vue-cli -v
+  299  vue init webpack vue-music
+  300  cd vue-music
+  301  npm run dev
+  302  npm run dev
+  303  cd vue -music
+  304  cd vue-music
+  305  npm run dev
+  306  npm run dev
+  307  npm run dev
+  308  npm run dev
+  309  npm run dev
+  310  cd vue-music
+  311  npm run dev
+  312  npm install
+  313  npm run dev
+  314  npm run dev
+  315  npm run dev
+  316  npm run dev
+  317  npm run dev
+  318  npm install stylus --save-dev
+  319  npm install
+  320  npm run dev
+  321  sudo npm install stylus --save-dev
+  322  npm install
+  323  npm run dev
+  324  npm run dev
+  325  npm install stylus --save-dev
+  326  sudo npm install stylus --save-dev
+  327  sudo npm install stylus-loader --save-dev
+  328  npm run dev
+  329  git init
+  330  git config
+  331  git config user.email
+  332  cd tran4
+  333  touch 4.html
+  334  touch 9.html
+  335  touch 10.html
+  336  touch 11.html
+  337  touch 12.html
+  338  touch 13.html
+  339  cd ../
+  340  mkdir tran5
+  341  cd tran5
+  342  touch 1.html
+  343  touch 2.html
+  344  touch 3.html
+  345  touch 4.html
+  346  touch 5.html
+  347  touch 6.html
+  348  touch 7.html
+  349  touch 8.html
+  350  cd ../
+  351  mkdir tran6
+  352  cd tran6
+  353  touch 1.html
+  354  touch 2.html
+  355  touch 3.html
+  356  cd ../tran5
+  357  touch utils.js
+  358  touch tab.html
+  359  ionic serve
+  360  ionic build --prod --release
+  361  ionic serve
+  362  ionic build --prod --release
+  363  cordova-hcp build
+  364  ionic serve
+  365  ionic serve
+  366  ionic build --prod --release
+  367  cordova-hcp build
+  368  ionic serve
+  369  ionic build --prod --release
+  370  cordova-hcp build
+  371  npm run dev
+  372  npm run dev
+  373  npm run dev
+  374  npm run dev
+  375  cd vue-music
+  376  npm run dev
+  377  npm run dev
+  378  vue init webpack white-App
+  379  cd white-App
+  380  npm install
+  381  npm install
+  382  cd src
+  383  mkdir api
+  384  mkdir base
+  385  mkdir common
+  386  mkdir store
+  387  npm run dev
+  388  cd tran5
+  389  touch utils.js
+  390  cd tran6
+  391  cd ../tran6
+  392  touch utils.js
+  393  touch 4.html
+  394  touch 5.html
+  395  touch 6.html
+  396  touch animation.js
+  397  touch 7.html
+  398  touch banner.js
+  399  touch 8.html
+  400  touch bannerT.js
+  401  cd ../
+  402  mkdir jqtran1
+  403  cd jstran1
+  404  cd jqtran1
+  405  touch 1.html
+  406  touch 2.html
+  407  touch 3.html
+  408  touch 4.html
+  409  touch 5.html
+  410  touch data.txt
+  411  touch 6.html
+  412  cd ../ touch eventDealWith
+  413  mkdir eventDealWith
+  414  cd eventDealWith
+  415  touch 1.html
+  416  touch 2.html
+  417  touch 3.html
+  418  touch 4.html
+  419  cd vue-music
+  420  npm run dev
+  421  npm install
+  422  npm run dev
+  423  npm install
+  424  npm run dev
+  425  npm run dev
+  426  npm install
+  427  npm run dev
+  428  npm run dev
+  429  npm run dev
+  430  npm run dev
+  431  npm run dev
+  432  npm run dev
+  433  npm install
+  434  npm run dev
+  435  ionic serve
+  436  ionic build --prod --release
+  437  ionic serve
+  438  ionic build --prod --release
+  439  cordova-hcp build
+  440  ng new proOne
+  441  ls -l
+  442  cd proOne
+  443  ng serve
+  444  ng -v
+  445  vue init webpack firstProject
+  446  cd firstProject
+  447  npm run dev
+  448  npm install vuex --save
+  449  npm run dev
+  450  npm run dev
+  451  npm run dev
+  452  npm run dev
+  453  npm run dev
+  454  npm run dev
+  455  npm run dev
+  456  cd vue-music
+  457  npm run dev
+  458  npm run dev
+  459  cd white-App
+  460  npm run dev
+  461  cd ../
+  462  git checkout -b moduleOne
+  463  git merge master moduleOne
+  464  cd white-App
+  465  npm run dev
+  466  npm run dev
+  467  npm run dev
+  468  npm run dev
+  469  npm run build
+  470  npm run dev
+  471  mkdir rxtran-one
+  472  cd rxtran-one
+  473  touch 1.html
+  474  cd ../
+  475  npm init 
+  476  npm i rxjs
+  477  npm init 
+  478  npm i rxjs
+  479  cd rxtran-one
+  480  touch 2.html
+  481  git config --list
+  482  cd node-1
+  483  cat 1.html
+  484  vi 1.html
+  485  vi 1.html
+  486  cd ../
+  487  git status
+  488  git add .
+  489  git status
+  490  git rm --cached . -r
+  491  git status
+  492  git add .
+  493  git commit -m 'study git'
+  494  git log
+  495  git push
+  496  git diff
+  497  git diff master
+  498  git diff
+  499  git diff --cached 
+  500  git diff master
+  501  git diff --cached
+  502  git log
+  503  git diff
+  504  git status
+  505* git 
+  506  git add .
+  507  git rm --cached . -r
+  508  git add .
+  509  git status
+  510  git reset HEAD
+  511  git checkout .
+  512  history >2.txt
+  513  history >2.txt
