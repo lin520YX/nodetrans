@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="65bc07d3-443d-443b-8c46-449495486a85" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node-4/writeStream.js" afterPath="$PROJECT_DIR$/node-4/writeStream.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="copy.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/node-4/1.server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node-4/copy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="166">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -63,6 +72,7 @@
         <option value="$PROJECT_DIR$/node-3/stream.js" />
         <option value="$PROJECT_DIR$/node-4/writeStream.js" />
         <option value="$PROJECT_DIR$/node-4/copy.js" />
+        <option value="$PROJECT_DIR$/node-4/1.server.js" />
       </list>
     </option>
   </component>
@@ -142,26 +152,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.writeStream.js">
+  <component name="RunManager" selected="Node.js.1.server.js">
+    <configuration name="1.server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="1.server.js" working-dir="$PROJECT_DIR$/node-4" />
     <configuration name="event.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="event.js" working-dir="$PROJECT_DIR$/node-3" />
     <configuration name="path.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="path.js" working-dir="$PROJECT_DIR$/node-3" />
-    <configuration name="state.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="state.js" working-dir="$PROJECT_DIR$/node-3" />
     <configuration name="stream.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="stream.js" working-dir="$PROJECT_DIR$/node-3" />
     <configuration name="writeStream.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="writeStream.js" working-dir="$PROJECT_DIR$/node-4" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.state.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.path.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.event.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.stream.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.writeStream.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.path.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.event.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.stream.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.writeStream.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.1.server.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.writeStream.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.stream.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.event.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.path.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.state.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.1.server.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.writeStream.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.stream.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.event.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.path.js" />
       </list>
     </recent_temporary>
   </component>
@@ -176,16 +186,15 @@
       <option name="presentableId" value="Default" />
       <updated>1532705336964</updated>
       <workItem from="1532705340361" duration="9406000" />
-      <workItem from="1532792265932" duration="24801000" />
+      <workItem from="1532792265932" duration="27127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34207000" />
+    <option name="totallyTimeSpent" value="36533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1402" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.217958" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -193,7 +202,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45652175" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22890025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22890025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -502,8 +511,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node-4/copy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="166">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node-4/1.server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
           <folding />
         </state>
       </provider>
