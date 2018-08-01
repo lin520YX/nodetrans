@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2" style="margin-top: 30px">
+                <div class="col-md-5" style="float: left">
+                    <label for="usename"> 用户名</label>
+                    <input type="text" id="usename">
+                </div>
+                <div class="col-md-5" style="float: left">
+                    <label for="password">密码</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="col-md-2" style="float: left">
+                    <button class="btn btn-primary">添加</button>
+                </div>
+                <div style="clear: both"></div>
+                <ul class="list-group">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let template=(username,password)=>{
+           return  `
+                <li class="list-group-item">
+                        用户名:${username} 密码:${password}
+                    </li>`
+    }
+    let listT=document.querySelector('.list-group');
+
+    ;
+    (function(){
+        function render(data) {
+            let str = ``;
+            data.forEach((item, index) => {
+                str += template(item.username, item.password);
+            })
+            listT.innerHTML = str;
+        }
+
+        fetch('/user').then((res)=>{
+            return res.json()
+        }).catch((err)=>{
+            console.log(err)
+        }).then((data)=>{
+            render(data);
+        })
+
+
+    })()
+</script>
+</html>
