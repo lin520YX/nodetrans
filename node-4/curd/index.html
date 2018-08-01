@@ -10,15 +10,15 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2" style="margin-top: 30px">
                 <div class="col-md-5" style="float: left">
-                    <label for="usename"> 用户名</label>
-                    <input type="text" id="usename">
+                    <label for="username"> 用户名</label>
+                    <input type="text" id="username">
                 </div>
                 <div class="col-md-5" style="float: left">
                     <label for="password">密码</label>
                     <input type="password" id="password">
                 </div>
                 <div class="col-md-2" style="float: left">
-                    <button class="btn btn-primary">添加</button>
+                    <button class="btn btn-primary add">添加</button>
                 </div>
                 <div style="clear: both"></div>
                 <ul class="list-group">
@@ -29,20 +29,25 @@
     </div>
 </body>
 <script>
-    let template=(username,password)=>{
+    let template=(username,password,id)=>{
            return  `
-                <li class="list-group-item">
-                        用户名:${username} 密码:${password}
+                <li class="list-group-item clearfix"  >
+                       <span > 用户名:${username} 密码:${password}</span>
+                        <button class="btn btn-danger btn-sm pull-right remove" data-id="${id}">删除</button>
                     </li>`
     }
     let listT=document.querySelector('.list-group');
 
     ;
     (function(){
+        let username= document.getElementById('username');
+        let password= document.getElementById('password');
+        let add = document.querySelector('.add');
+        let Oul = document.getElementsByTagName('ul')[0]
         function render(data) {
             let str = ``;
             data.forEach((item, index) => {
-                str += template(item.username, item.password);
+                str += template(item.username, item.password,item.id);
             })
             listT.innerHTML = str;
         }
@@ -54,8 +59,33 @@
         }).then((data)=>{
             render(data);
         })
+        add.addEventListener('click',()=>{
+            fetch('/user',{
+                method:'POST',
+                body:JSON.stringify({username:username.value,password:password.value})
+            }).then((res)=>{
+                return res.json()
+            }).catch((err)=>{
+                console.log(err)
+            }).then((data)=>{
 
-
+               let oDIv = document.createElement('div')
+               oDIv.innerHTML = template(data.username,data.password,data.id);
+               listT.appendChild(oDIv.firstElementChild);
+            })
+        },false);
+        Oul.addEventListener('click',(e)=>{
+            if(e.target.tagName =='BUTTON'){
+                let id = e.target.dataset.id;
+                fetch(`/user?id=${id}`,{
+                    method:'DELETE'
+                }).then((res)=>{
+                    return res.json();
+                }).then((data)=>{
+                    Oul.removeChild(e.target.parentNode)
+                })
+            }
+        })
     })()
 </script>
 </html>

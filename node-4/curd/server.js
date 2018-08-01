@@ -18,6 +18,7 @@ let users = [{
 http.createServer((req, res) => {//请求到来时 会执行回调函数
     let {pathname, query} = url.parse(req.url, true);
     let id =query['id'];
+    console.log(id)
     if (pathname === '/user') {
         //       增删改查
         switch (req.method) {
@@ -29,9 +30,24 @@ http.createServer((req, res) => {//请求到来时 会执行回调函数
                     return res.end(JSON.stringify(fuser))
                 }
                 break;
-            case  'POST':
+            case  'POST': //添加逻辑
+                let str ='';
+                req.on('data',function(chunk){
+                    str +=chunk;
+                });
+                req.on('end',function(){
+                    let user = JSON.parse(str);
+                    user.id =users.length?users.length+1:0;
+                    users.push(user);
+                    return res.end(JSON.stringify(user));
+                    console.log(str)
+                });
                 break;
             case 'DELETE':
+                if(id){
+                    users.filter(item => item.id!==id);
+                    res.end(JSON.stringify({}));
+                }
                 break;
             case 'PUT':
                 break;
