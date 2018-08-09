@@ -19,6 +19,7 @@ function express(){
         var i=0;
         function next(){
             var fn = app.fns[i];
+            console.log(req.url,fn.path)
             if(req.url.indexOf(fn.path)==0){
                     fn.fn(req,res,next);
             }else{

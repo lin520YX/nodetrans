@@ -6,4 +6,20 @@ let http = require('http');
 app.use(function(req,res,next){
         res.end('over')
 });
-http.createServer(app.start).listen(3000)
+app.get('/index',function(req,res){
+        res.end('aaaa')
+})
+http.createServer(app.start).listen(3000);
+let fs = require('fs');
+let path = require('path')
+app.use(function(req,res,next){
+    res.Krender=function(tmp,data){
+        fs.readFile(path.join(__dirname,tmp),'utf8',function(req,resu){
+            resu = resu.replace(/<%=(\w)%>/,function(input,group){
+                return data[group]
+            })
+            res.setHeader('Content-Type','text/html;charset=utf-8')
+            res.end(resu);
+        })
+    }
+})
